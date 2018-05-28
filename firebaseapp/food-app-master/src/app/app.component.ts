@@ -18,7 +18,7 @@ export class AppComponent {
 
 
 constructor(public af: AngularFireDatabase) {
-	 this.fruitveggies = this.af.list('/fruitveggie');
+	 this.fruitveggies = this.af.list('/fruitveggies');
 	}
 
 }

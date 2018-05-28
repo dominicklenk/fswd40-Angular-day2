@@ -1,6 +1,12 @@
-<h1>
-Items iteration
-</h1>
-<ul *ngFor="let fruitveggie of fruitveggies | async">
-  <li>{{fruitveggie.vitamin}}</li>
-</ul>
+<div class="container">
+  <h2>Business Contacs</h2>
+  <table class="table table-striped">
+    <thead>
+      <tr *ngFor="let fruitveggies of fruitveggies">
+        <td>{{fruitveggies.name}}</td>
+        <td>{{fruitveggies.category}}</td>
+        <td>{{fruitveggies.vitamin}}</td>
+      </tr>
+      </tbody>
+  </table>
+</div>

@@ -1,2 +1,2 @@
 [{"name": "carrot", "vitamin": 0.02, "category": "vegetable"},{"name": "lettuce", "vitamin": 0.02, "category": "vegetable"},{"name": "cucumber", "vitamin": 0.01, "category": "vegetable"},{"name": "pumpkin", "vitamin": 0.001, "category": "vegetable"},
-{"name": "apple", "vitamin": 0.02, "category": "fruit"},{"name": "pear", "vitamin": 0.02, "category": "fruit"},{"name": "cherry", "vitamin": 0.01, "category": "fruit"},{"name": "blueberry", "vitamin": 0.01, "category": "fruit"}];
+{"name": "apple", "vitamin": 0.02, "category": "fruit"},{"name": "pear", "vitamin": 0.02, "category": "fruit"},{"name": "cherry", "vitamin": 0.01, "category": "fruit"},{"name": "blueberry", "vitamin": 0.01, "category": "fruit"}]

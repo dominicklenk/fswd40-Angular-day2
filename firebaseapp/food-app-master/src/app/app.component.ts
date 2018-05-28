@@ -14,9 +14,11 @@ import * as firebase from 'firebase/app';
 })
 export class AppComponent {
   title = 'app';
+  fruitveggies: FirebaseListObservable<any[]>;
+
 
 constructor(public af: AngularFireDatabase) {
-	
+	 this.fruitveggies = this.af.list('/fruitveggie');
 	}
 
 }

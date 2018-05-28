@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppComponent } from './app.component';
 
 import { AngularFireModule} from 'angularfire2';
@@ -8,7 +7,12 @@ import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { AngularFireAuthModule } from 'angularfire2/auth';
 
 export const firebaseConfig ={
- // You will have this information from firebase .
+	apiKey: "AIzaSyAewNYzbE6aTkQRkqDhfG8ok5rAQNvp2MY",
+    authDomain: "food-3bbb5.firebaseapp.com",
+    databaseURL: "https://food-3bbb5.firebaseio.com",
+    projectId: "food-3bbb5",
+    storageBucket: "food-3bbb5.appspot.com",
+    messagingSenderId: "494433898471"
 };
 
 @NgModule({
@@ -24,3 +28,5 @@ export const firebaseConfig ={
  providers: [],
  bootstrap: [AppComponent]
 })
+
+export class AppModule { }
